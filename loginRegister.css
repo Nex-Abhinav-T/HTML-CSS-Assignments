@@ -1,0 +1,150 @@
+
+.container{
+  font-family:"Roboto", sans-serif;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+.heading{
+  font-size:18px;
+  display:flex;
+  justify-content:center;
+  margin-top:80px;
+  font-weight:700;
+  font-family:"Roboto" , sans-serif;
+}
+.createAccount-text{
+  font-size:25px;
+  font-weight:bold;
+  margin-top:100px;
+  font-family:"ROBOTO"  , sans-serif;
+}
+
+.google-signup{
+   margin-top:30px;
+}
+.google-button{
+  width:320px;
+  border-radius:12px;
+  border:1px solid rgb(167, 164, 164);
+  background-color:white;
+  height:45px;
+  display:flex;
+  cursor:pointer;
+  font-size:15px;
+  gap:65px;
+  padding:12px;
+ }
+ .google-button:hover{
+background-color:rgb(255, 252, 252);
+transition:0.4s ease;
+ }
+
+
+
+ 
+
+.line{
+  height:1px;
+  width:320px;
+  background-color:rgb(167, 164, 164);
+  margin-top:25px;
+  margin-bottom:20px;
+}
+
+
+
+.email-box{
+  width:320px;
+  height:45px;
+  border-radius:12px;
+  border:1px solid rgb(167,164,164);
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+
+.password-box{
+  width:320px;
+  border-radius:12px;
+  border:1px solid rgb(167,164,164);
+  height:45px;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+.signUp-text{
+  width:320px;
+  border-radius:12px;
+  height:45px;
+  margin-top:12px;
+  border:1px solid rgb(167,164,164);
+}
+
+.signUp-button{
+  width:326px;
+  background-color:rgb(167,164,164);
+  height:34px;
+  color:white;
+  border-radius:12px;
+  margin-top:10px;
+  text-align:center;
+  padding-top:15px;
+  cursor:pointer;
+}
+.question{
+  margin-top:10px;
+  color:rgb(103, 103, 103);
+  font-size:14px;
+}
+.signIn-link{
+  color:rgb(43, 43, 43);
+  }
+
+  .signIn-link:hover{
+    transition:0.2s ease;
+    color:rgb(52, 51, 51);
+    
+
+  }
+.question a{
+  color:rgb(133, 130, 130);
+  transition: border-color 0.2s ease;
+  text-decoration:underline;
+  border-bottom:4px grey;
+  text-underline-offset:2px;
+  
+}
+
+.signIn-link :hover{
+  transition:border-color 0.2s ease;
+  text-decoration-color:rgb(42, 41, 41);
+}
+.terms-Service{
+  margin-top:80px;
+  color:rgb(108, 108, 108);
+  margin-bottom:20px;
+  font-size:14px;
+
+}
+.termsOfService{
+  color:rgb(101, 101, 101);
+}
+.termsOfService:hover{
+  color:black;
+  transition:0.2s ease;
+}
+.terms-Service a{
+text-decoration:underline;
+border-bottom:4px grey;
+text-underline-offset:2px;
+
+}
+.privacy-policy{
+  color:rgb(114, 114, 114)
+}
+.privacy-policy:hover{
+  transition:0.2s ease;
+  color:black;
+}
